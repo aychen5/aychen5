@@ -1,27 +1,16 @@
 ---
 title: "Location"
-date: 2024-05-08
+date: 2024-05-25
 hidemeta: true
-description: "Professor Dr von Igelfeld's mailing and office addresses at the Institute of Romance Philology."
-
----
-
----
-
-#### Mailing address
-
-Professor Dr von Igelfeld  
-Institute of Romance Philology  
-University of Regensburg  
-Regensburg, Germany
+description: "Currently based in NYC"
 
 ---
 
 #### Office address
 
-Room 133  
-Institute of Romance Philology  
-University of Regensburg
+10 East 34th St. 5 fl
+New York, NY 10016
+646-664-3480
 
 ---
 
