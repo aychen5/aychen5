@@ -14,8 +14,8 @@ disableAnchoredHeadings: false
 
 ---
 
-![map](/static/ssmap.png)
-<!-- ![Img](/static/ssmap.png) -->
+<!-- ![map](/static/ssmap.png) -->
+<!-- ![Img](static/ssmap.png) -->
 
 https://who-flies-the-flag.streamlit.app/._Map 
 
