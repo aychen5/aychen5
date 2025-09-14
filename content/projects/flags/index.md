@@ -15,7 +15,7 @@ disableAnchoredHeadings: false
 ---
 
 
-<img alt="ssmap" src="./ssmap.png">
+<!-- <img alt="ssmap" src="./ssmap.png"> -->
 
 ---
 ## Highlights

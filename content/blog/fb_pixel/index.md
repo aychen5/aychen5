@@ -9,9 +9,9 @@ cover:
     image: "what-is-the-facebook-pixel-4259147330.png"
     alt: "FB Pixel"
     relative: true
-editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Course portal"
+# editPost:
+#     URL: "https://github.com/pmichaillat/hugo-website"
+#     Text: "Course portal"
 #showToc: true
 disableAnchoredHeadings: false
 
