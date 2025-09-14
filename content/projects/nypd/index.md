@@ -15,7 +15,7 @@ disableAnchoredHeadings: false
 ---
 
 
-#### Highlights
+## Highlights
 
 
 - **Data Engineering & Preprocessing**
@@ -36,26 +36,35 @@ disableAnchoredHeadings: false
 
 
 ---
-#### Stack
+## Tools and Stack
 
-R 
+
+#### Statistical Analysis
+![Hierarchical Clustering](https://img.shields.io/badge/Hierarchical%20Clustering-228B22?labelColor=#2F81F7) ![Random Forest](https://img.shields.io/badge/Random%20Forest-228B22?labelColor=#3776AB) ![Doubly Robust ML](https://img.shields.io/badge/Random%20Forest-228B22) 
+
+#### Software
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white)
 
 ---
 
-#### [Click here for the full report.](chapter1.pdf)
+## Click here for the [full report.](https://www.nypdmonitor.org/wp-content/uploads/2025/05/2025.05.01-956-ISLG-Report-An-Examination-of-NYPD-Stop-and-Frisk-Practices.pdf)
+
 ---
 
 
-#### Citation
+## Citation
 
-Moritz-Maria von Igelfeld. 1997. *Portugese Irregular Verbs*. Regensburg, Germany: Regensburg University Press. http://www.alexandermccallsmith.com/book/portuguese-irregular-verbs.
+Chen, Annie Y., and Kathleen Doherty. 2025. An Examination of NYPD Stop and Frisk Practices: Using Body-Worn Camera Recordings to Determine the Constitutionality and Documentation of Street Stops. CUNY Institute for State and Local Governance. Research. https://www.nypdmonitor.org/wp-content/uploads/2025/05/2025.05.01-956-ISLG-Report-An-Examination-of-NYPD-Stop-and-Frisk-Practices.pdf.
 
 ```BibTeX
-@book{I97,
-author = {Moritz-Maria von Igelfeld},
-year = {1997},
-title = {Portugese Irregular Verbs},
-publisher = {Regensburg University Press},
-address = {Regensburg, Germany},
-url = {http://www.alexandermccallsmith.com/book/portuguese-irregular-verbs}}
+@techreport{
+	type = {Research},
+	author = {Chen, Annie Y. and Doherty, Kathleen},
+    month = Apr,
+	year = {2025},
+	title = {An {Examination} of {NYPD} {Stop} and {Frisk} {Practices}: {Using} {Body}-worn {Camera} {Recordings} to {Determine} the {Constitutionality} and {Documentation} of {Street} {Stops}},
+	institution = {CUNY Institute for State and Local Governance},
+    publisher = {NYPD Monitor},
+    url = {Denerstein - encounters that officers categorized as a low-leve.pdf:files/8403/Denerstein - encounters that officers categorized as a low-leve.pdf:application/pdf}}
 ```

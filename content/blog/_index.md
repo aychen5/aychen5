@@ -1,4 +1,4 @@
 ---
 title: "Blog"
-description: "Smattering of thoughts and ideas"
+description: "Smattering of thoughts and ideas."
 ---
