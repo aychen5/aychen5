@@ -4,7 +4,6 @@ date: 2025-04-21
 tags: ["policing","racial disparities","stop and frisk"]
 author: ["Annie Chen"]
 description: "Court-commissioned study on constitutional compliance and racial disparities in policing."
-#summary: "This book discusses Portugese irregular verbs in great details."
 cover:
     image: "fmpviz.png"
     alt: "Predicted probabilities of an unconstitutional stop by race"
@@ -18,7 +17,6 @@ disableAnchoredHeadings: false
  
 ---
 ## Tools and Stack
-
 
 #### Statistical Analysis
 <!-- ![Hierarchical Clustering](https://img.shields.io/badge/Hierarchical%20Clustering-228B22?labelColor=#2F81F7) ![Random Forest](https://img.shields.io/badge/Random%20Forest-228B22?labelColor=#3776AB) ![Doubly Robust ML](https://img.shields.io/badge/Random%20Forest-228B22) 

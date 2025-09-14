@@ -13,10 +13,9 @@ showToc: false
 disableAnchoredHeadings: false
 
 ---
+## Summary
 
-
-## Highlights
-
+Do online platforms facilitate the consumption of potentially harmful content? Using paired behavioral and survey data provided by participants recruited from a representative sample in 2020 (n = 1181), we show that exposure to alternative and extremist channel videos on YouTube is heavily concentrated among a small group of people with high prior levels of gender and racial resentment. These viewers often subscribe to these channels (prompting recommendations to their videos) and follow external links to them. In contrast, nonsubscribers rarely see or follow recommendations to videos from these channels. Our findings suggest that YouTube’s algorithms were not sending people down “rabbit holes” during our observation window in 2020, possibly due to changes that the company made to its recommender system in 2019. However, the platform continues to play a key role in facilitating exposure to content from alternative and extremist channels among dedicated audiences.
 
 ---
 ## Tools and Stack
@@ -29,6 +28,9 @@ disableAnchoredHeadings: false
 ![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white) -->
 
 <!-- ![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white) -->
+
+---
+## Highlights
 
 ---
 
