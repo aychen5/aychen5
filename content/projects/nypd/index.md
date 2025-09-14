@@ -40,11 +40,11 @@ disableAnchoredHeadings: false
 
 
 #### Statistical Analysis
-![Hierarchical Clustering](https://img.shields.io/badge/Hierarchical%20Clustering-228B22?labelColor=#2F81F7) ![Random Forest](https://img.shields.io/badge/Random%20Forest-228B22?labelColor=#3776AB) ![Doubly Robust ML](https://img.shields.io/badge/Random%20Forest-228B22) 
+<!-- ![Hierarchical Clustering](https://img.shields.io/badge/Hierarchical%20Clustering-228B22?labelColor=#2F81F7) ![Random Forest](https://img.shields.io/badge/Random%20Forest-228B22?labelColor=#3776AB) ![Doubly Robust ML](https://img.shields.io/badge/Random%20Forest-228B22) 
 
 #### Software
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white) -->
 
 ---
 

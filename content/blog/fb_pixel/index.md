@@ -1,18 +1,18 @@
 ---
 title: "Setting up a Facebook Pixel on Qualtrics"
 date: 2020-10-13
-tags: ["Facebook Ad Campaigns", ""]
+tags: ["Facebook Ad Campaigns", "Meta Pixel", "Survey Distribution"]
 author: "Annie Chen"
 description: "Make the pixel work with xx" 
 summary: "This graduate course presents classical results in Romance philology. it focuses especially on Portugese and Spanish irregular verbs." 
 cover:
     image: "what-is-the-facebook-pixel-4259147330.png"
-    alt: "Villa of Reduced Circumstances"
+    alt: "FB Pixel"
     relative: true
 editPost:
     URL: "https://github.com/pmichaillat/hugo-website"
     Text: "Course portal"
-showToc: true
+#showToc: true
 disableAnchoredHeadings: false
 
 ---
@@ -35,21 +35,21 @@ fbq('track', 'PageView');
 
 ## 2. CONNECTING TO QUALTRICS SURVEY
   
-  - Moving over to Qualtrics, navigate to the __General__ tab of your survey's __Look and Feel__, and paste the base code you just copied to the __Header__ (using the editor's HTML view).
+- Moving over to Qualtrics, navigate to the __General__ tab of your survey's __Look and Feel__, and paste the base code you just copied to the __Header__ (using the editor's HTML view).
 
   
-  - Save and Publish!
+- Save and Publish!
   
   
 ## 3. TESTING YOUR PIXEL
   
-  - Download the Chrome extension, [Facebook Pixel Helper](https://chrome.google.com/webstore/detail/facebook-pixel-helper/fdgfkebogiimcoedlicjlajpkdmockpc?hl=en), to see if your pixel is firing properly. 
+- Download the Chrome extension, [Facebook Pixel Helper](https://chrome.google.com/webstore/detail/facebook-pixel-helper/fdgfkebogiimcoedlicjlajpkdmockpc?hl=en), to see if your pixel is firing properly. 
   
-  - Enter your survey through its Anonymous Link and activate the Facebook Pixel Helper. _Make sure that you have your adblocker turned off._
+- Enter your survey through its Anonymous Link and activate the Facebook Pixel Helper. _Make sure that you have your adblocker turned off._
   
-  - You can also see if your pixel is active by pasting the Anonymous Link to _Test Browser Events_ under the Test Events tab in your Events Manager.
+- You can also see if your pixel is active by pasting the Anonymous Link to _Test Browser Events_ under the Test Events tab in your Events Manager.
   
   
 ### Done!
   
-#### By default, the base code provided by Facebook tracks only *Page Views*, but [here](https://developers.facebook.com/docs/facebook-pixel/implementation/conversion-tracking) are a bunch of other events you can track.
+__By default, the base code provided by Facebook tracks only *Page Views*, but [here](https://developers.facebook.com/docs/facebook-pixel/implementation/conversion-tracking) are a bunch of other events you can track.__
