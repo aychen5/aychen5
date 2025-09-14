@@ -29,7 +29,7 @@ menu:
           weight: 6
 
 params:
-    description: "Hi! I am a social data scientist/computational social scientist/quantitative researcher. For the past few years, I've been supporting public safety analytics at the CUNY Institute for State and Local Governance by building data pipelines and applying statistical/ML models to understand policing. <br><br> I'm currently looking for opportunities to make an impact in climate tech and ways to engage in environmental/sustainability efforts at any level. <br> Outside of work, you’ll almost certainly find me on a tennis court, with my nose in a good book, or painting!"
+    description: "Hi! I am a social data scientist / computational social scientist / quantitative researcher. I spent the past few years supporting public safety research for local government by designing studies and making sense of data using statistical/ML models. <br><br>I'm currently exploring opportunities to make an impact in climate tech and ways to engage in environmental/sustainability efforts at any level. <br><br> Outside of work, you will almost certainly find me on a tennis court, with my nose in a good book, or running a painting and crafting!"
     author: Annie Chen
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "October 2025"
