@@ -28,6 +28,8 @@ disableAnchoredHeadings: false
 <!-- ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white) -->
 
+![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white)
+
 ---
 
 ## Click here for the [full report.](https://www.nypdmonitor.org/wp-content/uploads/2025/05/2025.05.01-956-ISLG-Report-An-Examination-of-NYPD-Stop-and-Frisk-Practices.pdf)

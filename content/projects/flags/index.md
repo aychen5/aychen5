@@ -14,7 +14,7 @@ disableAnchoredHeadings: false
 
 ---
 
-#![MapImg]("ssmap.png")
+![MapImg]("ssmap.png")
 
 ---
 ## Highlights
