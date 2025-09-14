@@ -32,7 +32,7 @@ params:
     description: "Hi! I am a social data scientist | computational social scientist | quantitative researcher. I spent the past few years supporting public safety research for local government by designing studies and making sense of data using statistical/ML models. <br><br>I'm currently exploring opportunities to make an impact in climate tech and ways to engage in environmental/sustainability efforts at any level. <br><br> Outside of work, you will almost certainly find me on a tennis court, with my nose in a good book, or running a painting and crafting!"
     author: Annie Chen
     # googleAnalyticsID: "G-XXXXX"
-    DateFormat: "YYYY-MM-DD"
+    DateFormat: "2006-01-02"
     defaultTheme: light
     hideFooter: false
     disableThemeToggle: true

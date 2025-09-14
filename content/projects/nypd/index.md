@@ -14,9 +14,23 @@ disableAnchoredHeadings: false
 
 ---
 
+## Summary
+ 
+---
+## Tools and Stack
+
+
+#### Statistical Analysis
+<!-- ![Hierarchical Clustering](https://img.shields.io/badge/Hierarchical%20Clustering-228B22?labelColor=#2F81F7) ![Random Forest](https://img.shields.io/badge/Random%20Forest-228B22?labelColor=#3776AB) ![Doubly Robust ML](https://img.shields.io/badge/Random%20Forest-228B22) 
+
+#### Software
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white) -->
+<!-- <img alt="Random Forest" src="https://img.shields.io/badge/Random%20Forest-%20?color=1E90FF"> -->
+
+---
 
 ## Highlights
-
 
 - **Data Engineering & Preprocessing**
     - Processed **1.5M+ BWC recordings** into structured encounters using metadata string matching and **hierarchical clustering** to merge multi-officer recordings of the same incident.
@@ -36,18 +50,6 @@ disableAnchoredHeadings: false
 
 
 ---
-## Tools and Stack
-
-
-#### Statistical Analysis
-<!-- ![Hierarchical Clustering](https://img.shields.io/badge/Hierarchical%20Clustering-228B22?labelColor=#2F81F7) ![Random Forest](https://img.shields.io/badge/Random%20Forest-228B22?labelColor=#3776AB) ![Doubly Robust ML](https://img.shields.io/badge/Random%20Forest-228B22) 
-
-#### Software
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white) -->
-<!-- <img alt="Random Forest" src="https://img.shields.io/badge/Random%20Forest-%20?color=1E90FF"> -->
-
----
 
 ## Click here for the [full report.](https://www.nypdmonitor.org/wp-content/uploads/2025/05/2025.05.01-956-ISLG-Report-An-Examination-of-NYPD-Stop-and-Frisk-Practices.pdf)
 
@@ -59,8 +61,7 @@ disableAnchoredHeadings: false
 Chen, Annie Y., and Kathleen Doherty. 2025. An Examination of NYPD Stop and Frisk Practices: Using Body-Worn Camera Recordings to Determine the Constitutionality and Documentation of Street Stops. CUNY Institute for State and Local Governance. Research. https://www.nypdmonitor.org/wp-content/uploads/2025/05/2025.05.01-956-ISLG-Report-An-Examination-of-NYPD-Stop-and-Frisk-Practices.pdf.
 
 ```BibTeX
-@techreport{
-	type = {Research},
+@report{
 	author = {Chen, Annie Y. and Doherty, Kathleen},
     month = Apr,
 	year = {2025},
