@@ -14,10 +14,10 @@ menu:
     main:
         - name: Projects
           url: projects/
-          weight: 5 
+          weight: 2 
         - name: Papers
           url: papers/
-          weight: 2
+          weight: 5
         # - name: Courses
         #   url: courses/
         #  weight: 3
@@ -29,7 +29,7 @@ menu:
           weight: 6
 
 params:
-    description: "Hi! I am a social data scientist/computational social scientist/quantitative researcher. For the past few years, I've been supporting public safety analytics at the CUNY Institute for State and Local Governance by building data pipelines and applying statistical/ML models to understand policing. I'm currently looking for opportunities to make an impact in climate tech and ways to engage in environmental/sustainability efforts any level. Outside of work, you’ll almost certainly find me on a tennis court, with my nose in a good book, or painting!"
+    description: "Hi! I am a social data scientist/computational social scientist/quantitative researcher. For the past few years, I've been supporting public safety analytics at the CUNY Institute for State and Local Governance by building data pipelines and applying statistical/ML models to understand policing. <br> I'm currently looking for opportunities to make an impact in climate tech and ways to engage in environmental/sustainability efforts at any level. <br> Outside of work, you’ll almost certainly find me on a tennis court, with my nose in a good book, or painting!"
     author: Annie Chen
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "October 2025"
@@ -55,7 +55,7 @@ params:
     profileMode:
           enabled: true
           title: Annie Chen
-          subtitle: "Hi! I am a social data scientist/computational social scientist/quantitative researcher. For the past few years, I've been supporting public safety analytics at the CUNY Institute for State and Local Governance by building data pipelines and applying statistical/ML models to understand policing. I'm currently looking for opportunities to make an impact in climate tech and ways to engage in environmental/sustainability efforts any level. Outside of work, you’ll almost certainly find me on a tennis court, with my nose in a good book, or oil painting!"
+          subtitle: "Hi! I am a social data scientist/computational social scientist/quantitative researcher. For the past few years, I've been supporting public safety analytics at the CUNY Institute for State and Local Governance by building data pipelines and applying statistical/ML models to understand policing. <br>I'm currently looking for opportunities to make an impact in climate tech and ways to engage in environmental/sustainability efforts any level. Outside of work, you’ll almost certainly find me on a tennis court, with my nose in a good book, or oil painting!"
           imageUrl: "profile-picture.png"
           imageWidth: 160
           imageHeight: 160
