@@ -1,35 +1,29 @@
 ---
-title: "NYPD Stop-and-Frisk Analysis Using Body-Worn Camera Data" 
-date: 2025-04-21
+title: "Likeminded" 
+date: 2024-04-21
 tags: ["policing","racial disparities","stop and frisk"]
 author: ["Annie Chen"]
 description: "Court-commissioned study on constitutional compliance and racial disparities in policing."
 cover:
-    image: "fmpviz.png"
+    image: "lkm.png"
     alt: "Predicted probabilities of an unconstitutional stop by race"
     relative: true
 showToc: false
 disableAnchoredHeadings: false
 
 ---
-The study examined police encounters recorded by body-worn cameras (BWCs) between March 16 and May 15 of 2022. A team of retired New York State judges examined the recordings made by police officers and related documentation of those stopped by police, to determine their compliance with the Fourth Amendment, particularly as enunciated in the seminal Supreme Court case of Terry v. Ohio and the New York Court of Appeals case, People v. De Bour. Participating judges all had years of experience resolving Fourth Amendment search and seizure issues as trial or appellate judges, or both. The concurrence of two judges was required for the identification of an unreported stop or for a finding of constitutionality or unconstitutionality.
- 
-![](fmpviz.png)
 
+ 
 ---
+## Tools and Stack
 
 #### Statistical Analysis
-<div style="display:flex; flex-wrap:wrap; gap:6px;">
-  <img alt="Hierarchical Clustering" src="https://img.shields.io/badge/Hierarchical%20Clustering-2F81F7?style=for-the-badge">
-  <img alt="Random Forest" src="https://img.shields.io/badge/Random%20Forest-228B22?style=for-the-badge">
-  <img alt="Doubly Robust ML" src="https://img.shields.io/badge/Doubly%20Robust%20ML-8A2BE2?style=for-the-badge">
-</div>
+![Hierarchical Clustering](https://img.shields.io/badge/Hierarchical%20Clustering-228B22?labelColor=#2F81F7) ![Random Forest](https://img.shields.io/badge/Random%20Forest-228B22?labelColor=#3776AB) ![Doubly Robust ML](https://img.shields.io/badge/Random%20Forest-228B22) 
 
 #### Software
-<div style="display:flex; flex-wrap:wrap; gap:6px;">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge">
-  <img alt="R" src="https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white&style=for-the-badge">
-</div>
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white)
+<img alt="Random Forest" src="https://img.shields.io/badge/Random%20Forest-%20?color=1E90FF">
 
 ---
 
@@ -64,8 +58,7 @@ The study examined police encounters recorded by body-worn cameras (BWCs) betwee
 Chen, Annie Y., and Kathleen Doherty. 2025. An Examination of NYPD Stop and Frisk Practices: Using Body-Worn Camera Recordings to Determine the Constitutionality and Documentation of Street Stops. CUNY Institute for State and Local Governance. Research. https://www.nypdmonitor.org/wp-content/uploads/2025/05/2025.05.01-956-ISLG-Report-An-Examination-of-NYPD-Stop-and-Frisk-Practices.pdf.
 
 ```BibTeX
-@article{
-    fmp2025,
+@report{
 	author = {Chen, Annie Y. and Doherty, Kathleen},
     month = Apr,
 	year = {2025},

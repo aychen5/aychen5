@@ -1,0 +1,79 @@
+{{ define "main" }}
+
+{{/* ===== Header & optional page content (same as theme) ===== */}}
+{{ if not .IsHome | and .Title }}
+<header class="page-header">
+  {{ partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+</header>
+{{ end }}
+
+{{ if .Content }}
+<div class="post-content">
+  {{ if not (.Param "disableAnchoredHeadings") }}
+    {{ partial "anchored_headings.html" .Content }}
+  {{ else }}
+    {{ .Content }}
+  {{ end }}
+</div>
+{{ end }}
+
+{{/* ===== Projects pages (limit to 6 for 3x2) ===== */}}
+{{ $pages := (.Pages.ByDate.Reverse) }}
+{{ $pages = first 6 $pages }}
+
+<style>
+  .projects-grid{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:16px;
+  }
+  @media (max-width:1024px){ .projects-grid{ grid-template-columns:repeat(2,1fr); } }
+  @media (max-width:640px){ .projects-grid{ grid-template-columns:1fr; } }
+
+  .project-card{
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    overflow:hidden;
+    background:#fff;
+    display:flex; flex-direction:column;
+    position:relative;
+  }
+  .project-card img{ width:100%; height:160px; object-fit:cover; display:block; }
+  .project-body{ padding:14px; display:flex; flex-direction:column; gap:8px; }
+  .project-title{ margin:0; font-weight:600; font-size:1.05rem; }
+  .project-desc{ margin:0; color:#4b5563; font-size:.95rem; }
+  .tags{ display:flex; flex-wrap:wrap; gap:6px; margin-top:6px; }
+  .tag{ font-size:.75rem; padding:3px 8px; border-radius:999px; background:#f3f4f6; color:#374151; }
+  .project-link{ position:absolute; inset:0; }
+</style>
+
+<div class="projects-grid">
+  {{ range $pages }}
+    {{/* Try Page Resource cover, else front matter cover.image, else placeholder */}}
+    {{ $cover := "" }}
+    {{ with .Resources.GetMatch "cover*" }}{{ $cover = .RelPermalink }}{{ end }}
+    {{ if and (eq $cover "") .Params.cover.image }}{{ $cover = .Params.cover.image }}{{ end }}
+    {{ if hasPrefix $cover "static/" }}{{ $cover = (strings.TrimPrefix "static" $cover) }}{{ end }}
+    {{ if and (ne $cover "") (not (hasPrefix $cover "/")) }}{{ $cover = (print "/" $cover) }}{{ end }}
+
+    <article class="project-card">
+      <a class="project-link" aria-label="project link to {{ .Title | plainify }}" href="{{ .RelPermalink }}"></a>
+
+      <img src="{{ or $cover "/images/placeholder.jpg" }}" alt="{{ or .Params.cover.alt .Title }}">
+
+      <div class="project-body">
+        <h3 class="project-title">{{ .Title }}</h3>
+        <p class="project-desc">{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 140 }}{{ end }}</p>
+
+        {{ with .Params.tags }}
+          <div class="tags">
+            {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+          </div>
+        {{ end }}
+      </div>
+    </article>
+  {{ end }}
+</div>
+
+{{ end }}

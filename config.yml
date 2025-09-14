@@ -29,10 +29,11 @@ menu:
           weight: 6
 
 params:
-    description: "Hi! I am a social data scientist | computational social scientist | quantitative researcher. I spent the past few years supporting public safety research for local government by designing studies and making sense of data using statistical/ML models. <br><br>I'm currently exploring opportunities to make an impact in climate tech and ways to engage in environmental/sustainability efforts at any level. <br><br> Outside of work, you will almost certainly find me on a tennis court, with my nose in a good book, or painting and crafting!"
+    description: "Hi! I am a **Data Scientist** | **Computational Social Scientist** | **Quantitative Researcher**. I spent the past few years supporting public safety research for local government by designing studies and making sense of data using statistical/ML models. <br><br>I'm currently exploring opportunities to make an impact in climate tech and ways to engage in environmental/sustainability efforts at any level. <br><br> Outside of work, you will almost certainly find me on a tennis court, with my nose in a good book, or painting and crafting!"
     author: Annie Chen
     # googleAnalyticsID: "G-XXXXX"
-    DateFormat: "2025-09-15"
+    DateFormat: "2006-01-02"
+    dateFormatLong: "January 2, 2006"
     defaultTheme: light
     hideFooter: false
     disableThemeToggle: true
@@ -55,7 +56,7 @@ params:
     profileMode:
           enabled: true
           title: Annie Chen
-          subtitle: "Hi! I am a social data scientist | computational social scientist | quantitative researcher. I spent the past few years supporting public safety research for local government by designing studies and making sense of data using statistical/ML models. <br><br>I'm currently exploring opportunities to make an impact in climate tech and ways to engage in environmental/sustainability efforts at any level. <br><br> Outside of work, you will almost certainly find me on a tennis court, with my nose in a good book, or painting and crafting!"
+          subtitle: "Hi! I am a **Data Scientist** | **Computational Social Scientist** | **Quantitative Researcher**. I spent the past few years supporting public safety research for local government by designing studies and making sense of data using statistical/ML models. <br><br>I'm currently exploring opportunities to make an impact in climate tech and ways to engage in environmental/sustainability efforts at any level. <br><br> Outside of work, you will almost certainly find me on a tennis court, with my nose in a good book, or painting and crafting!"
           imageUrl: "profile-picture.png"
           imageWidth: 160
           imageHeight: 160
@@ -92,8 +93,8 @@ params:
         hiddenInSingle: true
     label:
       text: "Annie Chen"
-      icon: favicon.ico
-      iconHeight: 18
+      icon: otter.ico
+      iconHeight: 20
 
 markup:
     goldmark:
