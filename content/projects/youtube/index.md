@@ -28,7 +28,7 @@ disableAnchoredHeadings: false
 <!-- ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white) -->
 
-![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white)
+<!-- ![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white) -->
 
 ---
 
