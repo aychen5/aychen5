@@ -29,10 +29,10 @@ menu:
           weight: 6
 
 params:
-    description: "Hi! I am a social data scientist / computational social scientist / quantitative researcher. I spent the past few years supporting public safety research for local government by designing studies and making sense of data using statistical/ML models. <br><br>I'm currently exploring opportunities to make an impact in climate tech and ways to engage in environmental/sustainability efforts at any level. <br><br> Outside of work, you will almost certainly find me on a tennis court, with my nose in a good book, or running a painting and crafting!"
+    description: "Hi! I am a social data scientist | computational social scientist | quantitative researcher. I spent the past few years supporting public safety research for local government by designing studies and making sense of data using statistical/ML models. <br><br>I'm currently exploring opportunities to make an impact in climate tech and ways to engage in environmental/sustainability efforts at any level. <br><br> Outside of work, you will almost certainly find me on a tennis court, with my nose in a good book, or running a painting and crafting!"
     author: Annie Chen
     # googleAnalyticsID: "G-XXXXX"
-    DateFormat: "October 2025"
+    DateFormat: "YYYY-MM-DD"
     defaultTheme: light
     hideFooter: false
     disableThemeToggle: true
@@ -55,7 +55,7 @@ params:
     profileMode:
           enabled: true
           title: Annie Chen
-          subtitle: "Hi! I am a social data scientist / computational social scientist / quantitative researcher. I spent the past few years supporting public safety research for local government by designing studies and making sense of data using statistical/ML models. <br><br>I'm currently exploring opportunities to make an impact in climate tech and ways to engage in environmental/sustainability efforts at any level. <br><br> Outside of work, you will almost certainly find me on a tennis court, with my nose in a good book, or running a painting and crafting!"
+          subtitle: "Hi! I am a social data scientist | computational social scientist | quantitative researcher. I spent the past few years supporting public safety research for local government by designing studies and making sense of data using statistical/ML models. <br><br>I'm currently exploring opportunities to make an impact in climate tech and ways to engage in environmental/sustainability efforts at any level. <br><br> Outside of work, you will almost certainly find me on a tennis court, with my nose in a good book, or running a painting and crafting!"
           imageUrl: "profile-picture.png"
           imageWidth: 160
           imageHeight: 160

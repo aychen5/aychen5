@@ -45,7 +45,7 @@ disableAnchoredHeadings: false
 #### Software
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white) -->
-<img alt="Random Forest" src="https://img.shields.io/badge/Random%20Forest-%20?color=1E90FF">
+<!-- <img alt="Random Forest" src="https://img.shields.io/badge/Random%20Forest-%20?color=1E90FF"> -->
 
 ---
 
