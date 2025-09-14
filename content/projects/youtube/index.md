@@ -1,6 +1,6 @@
 ---
 title: "Subscriptions and External Links Help Drive Resentful Users to Alternative and Extremist YouTube Channels" 
-date: "May 2023"
+date: 2023-05-24
 tags: ["YouTube","Online Information Consumption", "Misinformation","Quasi-poisson Regression"]
 author: ["Annie Chen, Brendan Nyhan, Jason Reifler, Ronald E. Robertson, and Christo Wilson"]
 description: "Court-commissioned study on constitutional compliance and racial disparities in policing."

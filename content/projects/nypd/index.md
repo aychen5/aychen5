@@ -1,6 +1,6 @@
 ---
 title: "NYPD Stop-and-Frisk Analysis Using Body-Worn Camera Data" 
-date: "April 2025"
+date: 2025-04-21
 tags: ["policing","racial disparities","stop and frisk"]
 author: ["Annie Chen"]
 description: "Court-commissioned study on constitutional compliance and racial disparities in policing."

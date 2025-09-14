@@ -1,6 +1,6 @@
 ---
 title: "Who Flies the Flag" 
-date: "September 2025"
+date: 2025-09-15
 tags: ["Computer Vision","Object Detection","Street View Imagery"]
 author: ["Annie Chen"]
 description: "."
