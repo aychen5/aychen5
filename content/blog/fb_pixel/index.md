@@ -6,7 +6,7 @@ author: "Annie Chen"
 description: "Make the pixel work with xx" 
 summary: "This graduate course presents classical results in Romance philology. it focuses especially on Portugese and Spanish irregular verbs." 
 cover:
-    image: "what-is-the-facebook-pixel-4259147330.jpg"
+    image: "what-is-the-facebook-pixel-4259147330.png"
     alt: "Villa of Reduced Circumstances"
     relative: true
 editPost:
@@ -19,11 +19,11 @@ disableAnchoredHeadings: false
 
 ## 1. CREATING A FACEBOOK PIXEL
   
-  - This is pretty straightforward. Go to the [Events Manager](https://www.facebook.com/events_manager2/list/pixel/3271211936235421/overview?act=243922916906371) and follow these simple [instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to generate the pixel: _Events Manager_ > _Connect a New Data Source_ > _Web_ 
+- This is pretty straightforward. Go to the [Events Manager](https://www.facebook.com/events_manager2/list/pixel/3271211936235421/overview?act=243922916906371) and follow these simple [instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to generate the pixel: _Events Manager_ > _Connect a New Data Source_ > _Web_ 
   
-  - To add the pixel to your Qualtrics survey, you want to click "Install code manually."
+- To add the pixel to your Qualtrics survey, you want to click "Install code manually."
   
-  - Copy the base code, which looks something like the following inside ``<script>`` tags:
+- Copy the base code, which looks something like the following inside ``<script>`` tags:
   
 ```js
 !function(f,b,e,v,n,t,s)
