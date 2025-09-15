@@ -1,0 +1,244 @@
+/* === Turquoise / Teal theme ===
+   Palette: #40E0D0, #008080, #085A57, #102A23
+   Light + dark aware, with accessible contrasts
+*/
+
+:root {
+  /* brand palette */
+  --turquoise: #40E0D0;
+  --teal: #008080;
+  --teal-deep: #085A57;
+  --ink-deep: #102A23;
+
+  /* tokens used by your site */
+  --accent: var(--turquoise);         /* primary accent */
+  --accent-2: var(--teal);            /* secondary accent */
+  --accent-3: var(--teal-deep);       /* darker hover/active */
+  --accent-ink: var(--ink-deep);      /* very dark text on light bg */
+
+  /* subtle translucents */
+  --accent-weak: rgba(64, 224, 208, 0.18);  /* #40E0D0 @ 18% */
+  --accent-veil: rgba(0, 128, 128, 0.12);   /* #008080 @ 12% */
+
+  /* map to your existing variables */
+  --primary: var(--ink-deep);
+  --secondary: #3d5a56;   /* neutral that harmonizes with teal */
+  --tertiary: #c6e9e5;    /* soft divider in light mode */
+  --content: var(--ink-deep);
+  --border: #e6f4f2;
+  --theme: #ffffff;
+  --entry: #ffffff;
+
+  /* link colors */
+  --link: var(--teal);
+  --link-hover: var(--turquoise);
+
+  /* cards / shadows */
+  --shadow-acc: 0 6px 18px var(--accent-weak);
+}
+
+.dark {
+  --theme: #0b1715;       /* dark background */
+  --entry: #10201d;       /* card/bg surface */
+  --primary: #e8fffb;     /* main text */
+  --secondary: #b7d4cf;   /* secondary text */
+  --tertiary: #1a3531;    /* dividers */
+  --content: #e8fffb;
+  --border: #1a3531;
+
+  --link: #62efe1;        /* lighter link on dark */
+  --link-hover: #40E0D0;
+  --shadow-acc: 0 8px 22px rgba(64, 224, 208, 0.22);
+}
+
+/* ===== Global link / hover accents ===== */
+a,
+.post-content a {
+  color: var(--link);
+}
+a:hover,
+.post-content a:hover {
+  color: var(--link-hover);
+  text-decoration: none;
+  border-bottom: 1px dotted currentColor;
+}
+
+/* ===== Cards (list entries) ===== */
+.post-entry,
+.first-entry,
+.tag-entry {
+  border: 1px solid var(--border);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.post-entry:hover,
+.first-entry:hover,
+.tag-entry:hover {
+  transform: translateY(-1px);
+  border-color: var(--accent);
+  box-shadow: var(--shadow-acc);
+}
+
+/* ===== Buttons (if theme uses .btn) ===== */
+.btn,
+button,
+input[type="submit"] {
+  background: var(--accent-2);
+  color: #fff;
+  border: 1px solid var(--accent-2);
+  padding: 0.5rem 0.85rem;
+  border-radius: 8px;
+  transition: background .15s ease, border-color .15s ease;
+}
+.btn:hover,
+button:hover,
+input[type="submit"]:hover {
+  background: var(--accent-3);
+  border-color: var(--accent-3);
+}
+
+/* Outline/focus for accessibility */
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* ===== Minor accents ===== */
+::selection { background: var(--accent-weak); }
+mark { background: var(--accent-weak); }
+
+/* Badges/chips (optional utility) */
+.badge {
+  display: inline-block;
+  padding: .25rem .55rem;
+  border-radius: 999px;
+  background: var(--accent-veil);
+  color: var(--accent-3);
+  border: 1px solid var(--accent);
+  font-size: .85rem;
+  line-height: 1;
+}
+/* === Inverted hover/highlight (dark bg, light text) === */
+
+/* Palettes (reuse your theme vars if you already set them) */
+:root {
+  --turquoise: #40E0D0;
+  --teal: #008080;
+  --teal-deep: #085A57;
+  --ink-deep: #102A23;
+
+  --hover-bg: var(--teal-deep);     /* dark background on hover */
+  --hover-fg: #ECFFFD;              /* light text on hover */
+  --hover-ring: var(--turquoise);   /* subtle focus ring */
+}
+
+/* Links (inline) */
+a,
+.post-content a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color .12s ease, background-color .12s ease, box-shadow .12s ease, border-color .12s ease;
+  border-radius: 6px; /* so bg hover looks like a pill */
+  padding: 0 .2em;   /* tiny padding to show bg */
+}
+
+a:hover,
+.post-content a:hover,
+.entry-header a:hover,
+.footer a:hover {
+  color: var(--hover-fg);
+  background: var(--hover-bg);
+  border-color: var(--hover-bg);
+  box-shadow: 0 0 0 2px var(--hover-bg), 0 2px 10px rgba(0,0,0,.08);
+}
+
+/* Header/menu links */
+.header .logo a,
+.header .menu a {
+  border-radius: 6px;
+  padding: .15rem .35rem;
+}
+.header .logo a:hover,
+.header .menu a:hover {
+  color: var(--hover-fg);
+  background: var(--hover-bg);
+}
+
+/* Cards / list entries */
+.post-entry,
+.first-entry,
+.tag-entry {
+  transition: transform .16s ease, box-shadow .16s ease, border-color .16s ease, background-color .16s ease, color .16s ease;
+  border-radius: var(--radius, 8px);
+}
+.post-entry:hover,
+.first-entry:hover,
+.tag-entry:hover {
+  background: var(--hover-bg);
+  color: var(--hover-fg);
+  border-color: var(--hover-bg);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(8,90,87,.25);
+}
+/* ensure nested links remain readable on dark hover */
+.post-entry:hover a,
+.first-entry:hover a,
+.tag-entry:hover a {
+  color: var(--hover-fg);
+  border-color: rgba(236,255,253,.35);
+}
+
+/* Buttons (if present) */
+.btn,
+button,
+input[type="submit"] {
+  transition: background .15s ease, color .15s ease, border-color .15s ease, box-shadow .15s ease;
+}
+.btn:hover,
+button:hover,
+input[type="submit"]:hover {
+  background: var(--hover-bg);
+  color: var(--hover-fg);
+  border-color: var(--hover-bg);
+  box-shadow: 0 0 0 2px var(--hover-ring);
+}
+
+/* Keyboard focus — visible & on-brand */
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--hover-ring);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Text selection (drag highlight) — dark bg, light text */
+::selection {
+  background: var(--hover-bg);
+  color: var(--hover-fg);
+}
+::-moz-selection {
+  background: var(--hover-bg);
+  color: var(--hover-fg);
+}
+
+/* Dark mode tweaks: keep contrast strong */
+.dark a:hover,
+.dark .post-content a:hover,
+.dark .entry-header a:hover,
+.dark .footer a:hover {
+  background: var(--ink-deep);  /* #102A23 */
+  color: var(--hover-fg);
+  border-color: var(--ink-deep);
+  box-shadow: 0 0 0 2px var(--ink-deep), 0 2px 10px rgba(0,0,0,.25);
+}
+.dark .post-entry:hover,
+.dark .first-entry:hover,
+.dark .tag-entry:hover {
+  background: var(--ink-deep);
+  color: var(--hover-fg);
+  border-color: var(--ink-deep);
+  box-shadow: 0 10px 24px rgba(16,42,35,.45);
+}

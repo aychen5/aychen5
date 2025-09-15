@@ -1,0 +1,38 @@
+/* Bibliography look for /pages list */
+.citations {
+  max-width: 70ch;         /* readable line length */
+  margin: 2rem auto;
+  font-size: 0.95rem;      /* slightly smaller */
+  line-height: 1.55;
+}
+
+.citations ul {
+  list-style: none;        /* no bullets */
+  margin: 0;
+  padding: 0;
+}
+
+.citations li {
+  margin: 0 0 0.6rem 0;
+  padding-left: 1.6em;     /* creates space for hanging indent */
+  text-indent: -1.6em;     /* hanging indent */
+}
+
+.citations li + li {
+  margin-top: 0.35rem;     /* gentle vertical rhythm */
+}
+
+.citations a {
+  text-decoration: none;
+  border-bottom: 1px solid currentColor; /* subtle underline */
+}
+
+.citations a:hover {
+  text-decoration: none;
+  border-bottom-style: dotted;
+}
+
+/* Keep each citation together when printing */
+@media print {
+  .citations li { page-break-inside: avoid; }
+}

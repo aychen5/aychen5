@@ -1,4 +1,8 @@
 ---
 title: "Papers"
-description: "List of publications."
+cascade:
+  cover:
+    hidden: true
+    hiddenInList: true
+  hideSummary: true
 ---

@@ -1,0 +1,17 @@
+{{ define "main" }}
+<main class="citations">
+  <h1>{{ .Title }}</h1>
+  <ul>
+    {{ range .Pages.ByTitle }}
+      <li>
+        {{ with .Params.author }}{{ delimit . ", " }}. {{ end }}
+        <strong>{{ .Title }}</strong>.
+        {{ with .Date }} ({{ .Format "2006" }}){{ end }}.
+        {{ with .Params.publisher }} {{ . }}.{{ end }}
+        {{ with .Params.doi_id }} DOI: <a href="https://doi.org/{{ . }}">{{ . }}</a>.{{ end }}
+        {{ with .Params.external_link }} <a href="{{ . }}">link</a>{{ end }}
+      </li>
+    {{ end }}
+  </ul>
+</main>
+{{ end }}
