@@ -1,9 +1,9 @@
 ---
-title: "Subscriptions and External Links Help Drive Resentful Users to Alternative and Extremist YouTube Channels" 
+title: "Subscriptions and external links help drive resentful users to alternative and extremist YouTube channels" 
 date: 2023-05-24
-tags: ["YouTube","Online Information Consumption", "Misinformation","Quasi-poisson Regression"]
+tags: ["recsys","online information consumption", "survey", "misinformation","quasi-poisson models", "GLM"]
 author: ["Annie Chen, Brendan Nyhan, Jason Reifler, Ronald E. Robertson, and Christo Wilson"]
-description: "Court-commissioned study on constitutional compliance and racial disparities in policing."
+description: "Analysis of the video consumption diet of YouTube users using browsing data."
 #summary: "This book discusses Portugese irregular verbs in great details."
 cover:
     image: "cummulativeviews.png"
@@ -13,33 +13,33 @@ showToc: false
 disableAnchoredHeadings: false
 
 ---
-## Summary
+## Abstract
 
 Do online platforms facilitate the consumption of potentially harmful content? Using paired behavioral and survey data provided by participants recruited from a representative sample in 2020 (n = 1181), we show that exposure to alternative and extremist channel videos on YouTube is heavily concentrated among a small group of people with high prior levels of gender and racial resentment. These viewers often subscribe to these channels (prompting recommendations to their videos) and follow external links to them. In contrast, nonsubscribers rarely see or follow recommendations to videos from these channels. Our findings suggest that YouTube’s algorithms were not sending people down “rabbit holes” during our observation window in 2020, possibly due to changes that the company made to its recommender system in 2019. However, the platform continues to play a key role in facilitating exposure to content from alternative and extremist channels among dedicated audiences.
 
 
-![](cummulativereviews.png)
+![](cummulativeviews.png)
 
 ---
-## Tools and Stack
 
-
-#### Statistical Analysis
+#### Statistical Modeling
+<div style="display:flex; flex-wrap:wrap; gap:6px;">
+  <img alt="Quasi-Poisson Regression" src="https://img.shields.io/badge/Quasipoisson%20Regression-2F81F7?style=for-the-badge">
+  <img alt="Survey Weighting" src="https://img.shields.io/badge/Survey%20Weights-2F81F7?style=for-the-badge">
+</div>
 
 #### Software
-<!-- ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white) -->
-
-<!-- ![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white) -->
+<div style="display:flex; flex-wrap:wrap; gap:6px;">
+  <img alt="R" src="https://img.shields.io/badge/R-3776AB?logo=r&logoColor=white&style=for-the-badge">
+  <img alt="Beautiful Soup" src="https://img.shields.io/badge/Beautiful%20Soup-3776AB?logo=soup&logoColor=white&style=for-the-badge">
+  <img alt="HPCC" src="https://img.shields.io/badge/HPCC-3776AB?style=for-the-badge">
+</div>
 
 ---
 ## Highlights
 
 ---
 
-## Click here for the [full report.](https://www.nypdmonitor.org/wp-content/uploads/2025/05/2025.05.01-956-ISLG-Report-An-Examination-of-NYPD-Stop-and-Frisk-Practices.pdf)
-
----
 
 
 ## Citation

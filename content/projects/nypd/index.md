@@ -1,7 +1,7 @@
 ---
-title: "NYPD Stop-and-Frisk Analysis Using Body-Worn Camera Data" 
+title: "An examination of NYPD Stop and Frisk practices using body-worn camera recordings" 
 date: 2025-04-21
-tags: ["policing","racial disparities","stop and frisk"]
+tags: ["random forest", "entropy balancing", "hierarchical clustering", "doubly robust regression", "policing","racial disparities","stop and frisk"]
 author: ["Annie Chen"]
 description: "Court-commissioned study on constitutional compliance and racial disparities in policing."
 cover:
@@ -18,17 +18,18 @@ The study examined police encounters recorded by body-worn cameras (BWCs) betwee
 
 ---
 
-#### Statistical Analysis
+#### Statistical Modeling
 <div style="display:flex; flex-wrap:wrap; gap:6px;">
-  <img alt="Hierarchical Clustering" src="https://img.shields.io/badge/Hierarchical%20Clustering-2F81F7?style=for-the-badge">
-  <img alt="Random Forest" src="https://img.shields.io/badge/Random%20Forest-228B22?style=for-the-badge">
-  <img alt="Doubly Robust ML" src="https://img.shields.io/badge/Doubly%20Robust%20ML-8A2BE2?style=for-the-badge">
+  <img alt="Hierarchical Algomerative Clustering" src="https://img.shields.io/badge/Hierarchical%20Clustering-2F81F7?style=for-the-badge">
+  <img alt="Random Forest" src="https://img.shields.io/badge/Random%20Forest-2F81F7?style=for-the-badge">
+  <img alt="Doubly Robust ML" src="https://img.shields.io/badge/Doubly%20Robust%20ML-2F81F7?style=for-the-badge">
+  <img alt="Entity Resolution" src="https://img.shields.io/badge/Entity%20Resolution%20ML-2F81F7?style=for-the-badge">
 </div>
 
 #### Software
 <div style="display:flex; flex-wrap:wrap; gap:6px;">
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge">
-  <img alt="R" src="https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white&style=for-the-badge">
+  <img alt="R" src="https://img.shields.io/badge/R-3776AB?logo=r&logoColor=white&style=for-the-badge">
 </div>
 
 ---

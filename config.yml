@@ -1,4 +1,4 @@
-baseURL: "https://aychen5.github.io" 
+baseURL: "https://aychen5.github.io/" 
 title: Annie Y. Chen
 theme: PaperMod
 
@@ -63,8 +63,8 @@ params:
           buttons:
             - name: Projects
               url: projects/
-            # - name: Papers
-            #   url: papers/
+            - name: Papers
+              url: papers/
             # - name: Data
             #   url: data/
             - name: Tags
